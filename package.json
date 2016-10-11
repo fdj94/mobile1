@@ -1,0 +1,28 @@
+{
+  "name": "mobile1",
+  "version": "0.0.1",
+  "description": "my test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdj94/mobile1.git"
+  },
+  "keywords": [
+    "mobile1"
+  ],
+  "author": "mysekf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdj94/mobile1/issues"
+  },
+  "homepage": "https://github.com/fdj94/mobile1#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-uglify": "^2.0.0"
+  }
+}
