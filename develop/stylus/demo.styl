@@ -1,1 +1,231 @@
-demo.styl
+*
+	margin 0
+	padding 0
+	line-height 1
+	font-family SimHei
+	box-sizing border-box
+a
+	text-decoration none
+	color inherit
+ul
+ol
+	list-style none
+em
+i
+	font-style normal
+.none
+	display none
+.color
+	background rgb(34,111,187)
+header
+	width 100%
+	height (45/16) rem
+	background-color rgb(250, 250, 250)
+	background-image url(../image/world.png) 
+	background-size auto auto
+	background-position (139/16)rem 0
+	background-repeat no-repeat
+	.logo
+		display inline-block
+		width (119/16)rem
+		height (30/16)rem
+		margin (7/16)rem 0 0 (10/16)rem
+		background-image url(../image/logo.png)
+		background-repeat no-repeat
+		background-size (119/16)rem (30/16)rem
+	.more
+		float right
+		display inline-block
+		width (12/16)rem
+		height 1rem
+		margin (14/16)rem (14/16)rem 0 0 
+		background-image url(../image/icon.png)
+		background-position-x - 1.25rem
+		background-size auto 100%
+		background-repeat no-repeat
+.fixedBox
+	width 100%
+	ul
+		width 100%
+		padding-top (5/16) rem
+		height (100/16) rem
+		background-color rgb(73,152,231)
+		li
+			width 20%
+			float left
+			text-align center
+			line-height (30/16) rem
+			font-size 1.1rem
+			color white
+	.second
+		background-color rgb(73, 83, 93)
+		li
+			color rgb(149, 160, 172)
+.nav
+	width 100%
+	background rgb(62,134,206)
+	ul
+		width 100%
+		height (40/16) rem
+		padding (5/16)rem 0
+		li
+			width 20%
+			line-height (30/16) rem
+			float left
+			text-align center
+			color white
+			font-size 1.1rem
+			height (30/16) rem
+.screen
+	position relative
+	width 100%
+	height (165/16) rem
+	img
+		width 100%
+		height @height
+.list
+	width 100%
+	ul
+		width 100%
+		padding 0 (8/16)rem
+		li
+			padding (10/16)rem 0
+			width 100%
+			border-bottom 1px solid #eceef0
+			box-shadow 0 1px 1px #fff
+			.th
+				width (75/16)rem
+				height (55/16)rem
+				float left
+				border 1px solid #e0e0e0
+				background #e9f1f4
+				padding (1/16)rem (3/16)rem
+				img
+					width 100%
+					height 100%
+			h2
+				line-height (22/16)rem
+				height @line-height
+				font-size 0.9375rem
+				font-weight 400
+				white-space nowrap
+				overflow hidden
+				text-overflow ellipsis
+				padding-left (5/16)rem
+				margin-bottom (1/16)rem
+			p
+				padding-left (5/16)rem
+				overflow hidden
+				color #878c92
+				font-size: .8rem
+				line-height 1.1rem
+				.count
+					float right
+					position relative
+					i
+						&:last-child
+							position relative
+							line-height 1.1rem
+							margin-top (1/16)rem
+							display inline-block
+							&:before
+								content ''
+								background-image url(../image/icon33.png)
+								width (10/16)rem
+								height @width
+								background-size auto 200%
+								background-position-x -(80/16)rem
+								position absolute
+								left -(14/16)rem
+								top (4/16)rem
+					.flag
+						width (24/16)rem
+						height (14/16) rem
+						background-image url(../image/flagicon.png)
+						background-size auto 100%
+						display inline-block
+						position absolute
+						bottom 0
+						right 3.5rem
+						&.flag1
+						&.flag3
+						&.flag5
+						&.flag7
+						&.flag9
+						&.flag11
+						&.flag13
+						&.flag15
+							background-position-x -(72/16)rem
+.click
+	width 100%
+	height 2.25rem
+	background-color rgb(245, 245, 245)
+	line-height @height
+	text-align center
+	color rgb(180, 180, 180)
+.login
+	width 100%
+	height 7rem
+	background-color rgb(64, 74, 84)
+	span
+		display inline-block
+		margin 1rem 0 0 .5rem
+		color rgb(149, 160, 172)
+	.returnTop
+		display inline-block
+		float right
+		margin .625rem .75rem 0 0
+		width 2.625rem
+		height 2.375rem
+		background-size 2.625rem 2.375rem
+		background-image url(../image/returnTop.png)
+	.secondLine
+		margin .75rem 0 0 .5rem
+		color rgb(149, 160, 172)
+	.final
+		margin .5rem 0 0 .5rem
+		color rgb(149, 160, 172)
+		font-size .875rem
+footer
+	width 100%
+	height 3rem
+	background-color rgba(0, 0, 0, .5)
+	position fixed
+	bottom 0
+	left 0
+	i
+		float left
+		display inline-block
+		width 2rem
+		height @width
+		margin .5rem .5rem 0 1rem
+		background-image url(../image/kbs-logo.png)
+		background-size @width @height
+	.left
+		float left
+		margin-top .5rem
+		color white
+		h2
+			font-size 1rem
+			color white
+		p
+			font-size .875rem
+			color white
+	.right
+		float left
+		font-size .75rem
+		margin-top .375rem
+		margin-left .9375rem
+		width 3.5rem
+		height 2.125rem
+		text-align center
+		line-height @height
+		color white
+		background-color #4998e7
+		border-radius .1875rem
+	.end
+		float right
+		margin .5rem 1rem 0 0
+		color white
+		font-size 1.5rem
+		font-weight 400
